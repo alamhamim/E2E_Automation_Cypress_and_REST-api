@@ -1,2 +1,1 @@
-
-![](cypress/photos/frame.png)
+![](cypress/photo/frame.png?raw=true)
