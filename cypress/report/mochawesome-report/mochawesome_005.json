@@ -1,0 +1,182 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-14T04:09:58.259Z",
+    "end": "2022-02-14T04:10:19.082Z",
+    "duration": 20823,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "14b1cfda-2c3d-4cc1-9756-d904b6d2a51f",
+      "title": "",
+      "fullFile": "cypress/integration/tests/homepagetest.spec.ts",
+      "file": "cypress/integration/tests/homepagetest.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5259d7be-d4fe-46b7-881d-deae6a5da06f",
+          "title": "Home page test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify the home page header text",
+              "fullTitle": "Home page test Verify the home page header text",
+              "timedOut": null,
+              "duration": 7247,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "home.verifyHeader();",
+              "err": {},
+              "uuid": "3c9f1929-ae2c-4af6-a0fd-fd2ad090ce22",
+              "parentUUID": "5259d7be-d4fe-46b7-881d-deae6a5da06f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click on women and verify the title",
+              "fullTitle": "Home page test Click on women and verify the title",
+              "timedOut": null,
+              "duration": 6317,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "home.clickOnWomen();",
+              "err": {},
+              "uuid": "09b55959-17e4-4d56-b86e-ac064339aa61",
+              "parentUUID": "5259d7be-d4fe-46b7-881d-deae6a5da06f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click on dresses and verify the title",
+              "fullTitle": "Home page test Click on dresses and verify the title",
+              "timedOut": null,
+              "duration": 2948,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "home.clickOneDresses();",
+              "err": {},
+              "uuid": "8dc1434a-03af-4cad-940f-de9624c77779",
+              "parentUUID": "5259d7be-d4fe-46b7-881d-deae6a5da06f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Click on t-shirts and verify the title",
+              "fullTitle": "Home page test Click on t-shirts and verify the title",
+              "timedOut": null,
+              "duration": 2167,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "home.clickOnTshirts();",
+              "err": {},
+              "uuid": "73eec6c6-7941-4aab-8d2f-2ce356ef1341",
+              "parentUUID": "5259d7be-d4fe-46b7-881d-deae6a5da06f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify the home page products",
+              "fullTitle": "Home page test Verify the home page products",
+              "timedOut": null,
+              "duration": 1287,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "home.verifyHomePageProduct();",
+              "err": {},
+              "uuid": "84c393c7-78e4-47eb-b390-1efd0e53dadf",
+              "parentUUID": "5259d7be-d4fe-46b7-881d-deae6a5da06f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3c9f1929-ae2c-4af6-a0fd-fd2ad090ce22",
+            "09b55959-17e4-4d56-b86e-ac064339aa61",
+            "8dc1434a-03af-4cad-940f-de9624c77779",
+            "73eec6c6-7941-4aab-8d2f-2ce356ef1341",
+            "84c393c7-78e4-47eb-b390-1efd0e53dadf"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 19966,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "6.0.1"
+    }
+  }
+}

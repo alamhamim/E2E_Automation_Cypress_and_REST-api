@@ -1,0 +1,23 @@
+{
+  "name": "e2e_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress": "cypress open",
+    "mochamerge": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
+    "htmlreport": "marge cypress/report/output.json --reportDir ./ --inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "mochawesome-report-generator": "^6.0.1"
+  }
+}

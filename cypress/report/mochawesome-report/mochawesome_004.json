@@ -1,0 +1,163 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-14T03:58:42.330Z",
+    "end": "2022-02-14T03:58:54.448Z",
+    "duration": 12118,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a136868b-e7f1-4574-b3e2-1b1fdd2fba37",
+      "title": "",
+      "fullFile": "cypress/integration/tests/womenpage.spec.ts",
+      "file": "cypress/integration/tests/womenpage.spec.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1dba48ab-f556-4ba7-b284-c1c7cd1b85ef",
+          "title": "Women page test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Click on women and verify the title",
+              "fullTitle": "Women page test Click on women and verify the title",
+              "timedOut": null,
+              "duration": 10744,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "women.clickOnWomen();",
+              "err": {},
+              "uuid": "9ae85da1-ed29-4d86-9a33-b6b87013bf29",
+              "parentUUID": "1dba48ab-f556-4ba7-b284-c1c7cd1b85ef",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify women page title",
+              "fullTitle": "Women page test Verify women page title",
+              "timedOut": null,
+              "duration": 76,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "women.verifyWomenPageTitle();",
+              "err": {},
+              "uuid": "96e7aec7-5dd3-4d84-927a-ae9118c5bd19",
+              "parentUUID": "1dba48ab-f556-4ba7-b284-c1c7cd1b85ef",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify women page logo",
+              "fullTitle": "Women page test Verify women page logo",
+              "timedOut": null,
+              "duration": 59,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "women.womenLogoVisible();",
+              "err": {},
+              "uuid": "65c7ea6c-02f3-4f0f-8694-eaf6275abdfe",
+              "parentUUID": "1dba48ab-f556-4ba7-b284-c1c7cd1b85ef",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify women page products",
+              "fullTitle": "Women page test Verify women page products",
+              "timedOut": null,
+              "duration": 70,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "women.verifyWomenpageProducts();",
+              "err": {},
+              "uuid": "e8bfe2b7-1344-4723-8683-e8c727937663",
+              "parentUUID": "1dba48ab-f556-4ba7-b284-c1c7cd1b85ef",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9ae85da1-ed29-4d86-9a33-b6b87013bf29",
+            "96e7aec7-5dd3-4d84-927a-ae9118c5bd19",
+            "65c7ea6c-02f3-4f0f-8694-eaf6275abdfe",
+            "e8bfe2b7-1344-4723-8683-e8c727937663"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 10949,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/report/mochawesome-report"
+      },
+      "version": "6.0.1"
+    }
+  }
+}
