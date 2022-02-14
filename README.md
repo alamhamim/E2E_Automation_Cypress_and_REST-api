@@ -1,3 +1,4 @@
+
 ## UI and REST api automation with Cypress and Typescript
 ## Authors
 
@@ -30,6 +31,9 @@ npm run htmlreport
 Report will generate in the root folder as output.html
 
 
-## Support
+## Scan to connect on LinkedIn
 ![](cypress/photo/frame.png?raw=true "Scan From Your Phone")
-LinkedIn : https://www.linkedin.com/in/hamim-alam/
+
+
+## LinkedIn
+https://www.linkedin.com/in/hamim-alam/
