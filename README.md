@@ -1,2 +1,2 @@
 
-![](../cypress/photos/frame.png)
+![](cypress/photos/frame.png)
