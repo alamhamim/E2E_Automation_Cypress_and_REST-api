@@ -1,4 +1,3 @@
-
 ## UI and REST api automation with Cypress and Typescript
 ## Authors
 
@@ -11,14 +10,6 @@ Sofware QA Automation Engineer
 
 ## 🛠 Skills
 java, javascript, typescript, html, css, git, github, jenkins, selenium, cypress, SOAP api, REST api, postman, TestNG, Junit, mocha, chai, appium, SQL
-
-
-## Support
-
-For support, Scan this from your phone
-![](cypress/photo/frame.png?raw=true)
-LinkedIn : https://www.linkedin.com/in/hamim-alam/
-
 
 
 ## Running Tests
@@ -39,3 +30,6 @@ npm run htmlreport
 Report will generate in the root folder as output.html
 
 
+## Support
+![](cypress/photo/frame.png?raw=true "Scan From Your Phone")
+LinkedIn : https://www.linkedin.com/in/hamim-alam/
